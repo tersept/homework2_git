@@ -11,5 +11,8 @@ public class Git_test {
     void secondTest(){
         Assertions.assertTrue(31>1);
     }
+    void thirdTest(){
+        Assertions.assertFalse(31<1);
+    }
 
 }
