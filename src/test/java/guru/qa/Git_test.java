@@ -8,5 +8,8 @@ public class Git_test {
     void firstTest(){
         Assertions.assertTrue(3>1);
     }
+    void secondTest(){
+        Assertions.assertTrue(31>1);
+    }
 
 }
